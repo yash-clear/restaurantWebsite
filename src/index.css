@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+img{
+  height:50%;
+  width:100%;
+  border:solid whitesmoke 1px;
+}
+html {
+  font-size: 1rem;
+}
+.Card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width:25%;  
+  margin:3%;
+  background-color:aqua;
+  float: left;
+  padding: 0.7%;
+}
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+.Header{
+  width:100vw;
+  margin: 0%;
+}
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+ .NavItem{
+  display: inline;
+  color:wheat
+}
+.Footer{
+  background-color: #D1C4E9;
+  display: block;
+  width:99vw;
+  clear:both;
+}
+.jumbotron {
+  padding:70px 30px 70px 30px;
+  margin:0px ;
+  background: #9575CD ;
+  color:floralwhite;
+}
+
+address{
+  font-size:80%;
+margin:2%;
+  color:#0f0f0f;
+  float: auto;
+}
+
+.navbar-dark {
+  background-color: #512DA8;
+}
+.Breadcrumb{
+  background-color: #D1C4E9;
+ display:inline-block;
+ margin-top: 1%;
+padding: 1%;
+margin-left: 1.8%;
+border: double purple 1px;
+}
+
+.Link{
+  text-decoration: none;
+  color: #0f0f0f;
+}
+@media  screen and  (max-width:600px){
+  .card{
+    width:90vw;
+  }
+}
